@@ -3,13 +3,9 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-title: 'Playfair Display', serif;
+  --font-subtitle: 'Raleway', sans-serif;
+  --font-body: 'Lato', sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -28,3 +24,7 @@ body {
 .no-scrollbar::-webkit-scrollbar {
   display: none;
 }
+
+.font-title { font-family: var(--font-title); }
+.font-subtitle { font-family: var(--font-subtitle); }
+.font-body { font-family: var(--font-body); }

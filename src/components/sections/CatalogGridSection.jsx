@@ -8,7 +8,7 @@ export default function CatalogGridSection({ perfumes = [] }) {
   const limitedPerfumes = safePerfumes.slice(0, 10);
 
   return (
-    <section className="px-4 py-6 bg-slate-100">
+    <section className="px-4 pt-8 pb-12">
       {/* Grid */}
       <div className="grid grid-cols-2 gap-4">
         {limitedPerfumes.map((p) => (
@@ -22,12 +22,13 @@ export default function CatalogGridSection({ perfumes = [] }) {
           <button
             className="
               w-full 
-              bg-slate-950 
-              text-slate-100 
+              bg-slate-100 
+              text-slate-950 
               font-semibold 
-              text-[16px] 
+              text-[16px]
+              font-subtitle
               py-3 
-              rounded-[10px]
+              rounded-[6px]
             "
           >
             Ver todos

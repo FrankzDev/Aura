@@ -6,18 +6,19 @@ import "swiper/css";
 
 export default function HeroSlider() {
   const slides = [
-    { id: 1, image: "/images/hero/image-1.webp", link: "/producto/1" },
-    { id: 2, image: "/images/hero/image-2.webp", link: "/producto/2" },
-    { id: 3, image: "/images/hero/image-3.webp", link: "/producto/3" },
-    { id: 4, image: "/images/hero/image-4.webp", link: "/producto/4" },
-    { id: 5, image: "/images/hero/image-5.webp", link: "/producto/5" },
+    { id: 1, image: "/images/hero/slide-1.webp", link: "/producto/1" },
+    { id: 2, image: "/images/hero/slide-2.webp", link: "/producto/2" },
+    { id: 3, image: "/images/hero/slide-3.webp", link: "/producto/3" },
+    { id: 4, image: "/images/hero/slide-4.webp", link: "/producto/4" },
+    { id: 5, image: "/images/hero/slide-5.webp", link: "/producto/5" },
   ];
 
   return (
-    <div className="w-full h-[200px] overflow-hidden m-0 p-0">
+    <div className="w-full h-[250px] md:h-[600px] overflow-hidden m-0 p-0">
       <Swiper
         modules={[Autoplay]}
-        autoplay={{ delay: 4000, disableOnInteraction: false }}
+        speed={1000}
+        autoplay={{ delay: 5000, disableOnInteraction: false }}
         loop={true}
         slidesPerView={1}
         className="w-full h-full"

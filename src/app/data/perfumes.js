@@ -6,7 +6,7 @@ const perfumes = [
     price: 19.99,
     oldPrice: 34.99,
     gender: "male",
-    image: "https://picsum.photos/seed/p1/600/800"
+    image: "https://images.unsplash.com/photo-1733582140110-331d170bd055?q=80&w=881&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ const perfumes = [
     price: 21.99,
     oldPrice: 39.99,
     gender: "male",
-    image: "https://picsum.photos/seed/p2/600/800"
+    image: "https://images.unsplash.com/photo-1733582140110-331d170bd055?q=80&w=881&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
   {
     id: 3,
@@ -24,7 +24,7 @@ const perfumes = [
     price: 18.50,
     oldPrice: 29.99,
     gender: "female",
-    image: "https://picsum.photos/seed/p3/600/800"
+    image: "https://images.unsplash.com/photo-1733582140110-331d170bd055?q=80&w=881&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
   {
     id: 4,
@@ -33,7 +33,7 @@ const perfumes = [
     price: 22.00,
     oldPrice: 40.00,
     gender: "female",
-    image: "https://picsum.photos/seed/p4/600/800"
+    image: "https://images.unsplash.com/photo-1733582140110-331d170bd055?q=80&w=881&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
   {
     id: 5,
@@ -42,7 +42,7 @@ const perfumes = [
     price: 16.00,
     oldPrice: 25.00,
     gender: "unisex",
-    image: "https://picsum.photos/seed/p5/600/800"
+    image: "https://images.unsplash.com/photo-1733582140110-331d170bd055?q=80&w=881&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
   {
     id: 6,
@@ -51,7 +51,7 @@ const perfumes = [
     price: 19.00,
     oldPrice: 31.00,
     gender: "female",
-    image: "https://picsum.photos/seed/p6/600/800"
+    image: "https://images.unsplash.com/photo-1733582140110-331d170bd055?q=80&w=881&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
   {
     id: 7,
@@ -60,7 +60,7 @@ const perfumes = [
     price: 20.99,
     oldPrice: 33.99,
     gender: "male",
-    image: "https://picsum.photos/seed/p7/600/800"
+    image: "https://images.unsplash.com/photo-1733582140110-331d170bd055?q=80&w=881&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
   {
     id: 8,
@@ -69,7 +69,7 @@ const perfumes = [
     price: 19.90,
     oldPrice: 36.00,
     gender: "female",
-    image: "https://picsum.photos/seed/p8/600/800"
+    image: "https://images.unsplash.com/photo-1733582140110-331d170bd055?q=80&w=881&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
   {
     id: 9,
@@ -78,7 +78,7 @@ const perfumes = [
     price: 23.00,
     oldPrice: 44.00,
     gender: "unisex",
-    image: "https://picsum.photos/seed/p9/600/800"
+    image: "https://images.unsplash.com/photo-1733582140110-331d170bd055?q=80&w=881&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
   {
     id: 10,
@@ -87,7 +87,7 @@ const perfumes = [
     price: 21.50,
     oldPrice: 35.50,
     gender: "female",
-    image: "https://picsum.photos/seed/p10/600/800"
+    image: "https://images.unsplash.com/photo-1733582140110-331d170bd055?q=80&w=881&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
 
   // 10 más para completar los 20:
@@ -98,7 +98,7 @@ const perfumes = [
     price: 18.99,
     oldPrice: 30.99,
     gender: "female",
-    image: "https://picsum.photos/seed/p11/600/800"
+    image: "https://images.unsplash.com/photo-1733582140110-331d170bd055?q=80&w=881&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
   {
     id: 12,
@@ -107,7 +107,7 @@ const perfumes = [
     price: 20.00,
     oldPrice: 37.00,
     gender: "male",
-    image: "https://picsum.photos/seed/p12/600/800"
+    image: "https://images.unsplash.com/photo-1733582140110-331d170bd055?q=80&w=881&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
   {
     id: 13,
@@ -116,7 +116,7 @@ const perfumes = [
     price: 19.00,
     oldPrice: 28.00,
     gender: "female",
-    image: "https://picsum.photos/seed/p13/600/800"
+    image: "https://images.unsplash.com/photo-1733582140110-331d170bd055?q=80&w=881&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
   {
     id: 14,
@@ -125,7 +125,7 @@ const perfumes = [
     price: 16.50,
     oldPrice: 27.50,
     gender: "male",
-    image: "https://picsum.photos/seed/p14/600/800"
+    image: "https://images.unsplash.com/photo-1733582140110-331d170bd055?q=80&w=881&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
   {
     id: 15,
@@ -134,7 +134,7 @@ const perfumes = [
     price: 24.00,
     oldPrice: 49.00,
     gender: "unisex",
-    image: "https://picsum.photos/seed/p15/600/800"
+    image: "https://images.unsplash.com/photo-1733582140110-331d170bd055?q=80&w=881&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
   {
     id: 16,
@@ -143,7 +143,7 @@ const perfumes = [
     price: 22.99,
     oldPrice: 41.99,
     gender: "male",
-    image: "https://picsum.photos/seed/p16/600/800"
+    image: "https://images.unsplash.com/photo-1733582140110-331d170bd055?q=80&w=881&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
   {
     id: 17,
@@ -152,7 +152,7 @@ const perfumes = [
     price: 19.99,
     oldPrice: 34.00,
     gender: "female",
-    image: "https://picsum.photos/seed/p17/600/800"
+    image: "https://images.unsplash.com/photo-1733582140110-331d170bd055?q=80&w=881&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
   {
     id: 18,
@@ -161,7 +161,7 @@ const perfumes = [
     price: 23.50,
     oldPrice: 50.00,
     gender: "male",
-    image: "https://picsum.photos/seed/p18/600/800"
+    image: "https://images.unsplash.com/photo-1733582140110-331d170bd055?q=80&w=881&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
   {
     id: 19,
@@ -170,7 +170,7 @@ const perfumes = [
     price: 21.00,
     oldPrice: 32.00,
     gender: "unisex",
-    image: "https://picsum.photos/seed/p19/600/800"
+    image: "https://images.unsplash.com/photo-1733582140110-331d170bd055?q=80&w=881&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
   {
     id: 20,
@@ -179,7 +179,7 @@ const perfumes = [
     price: 20.50,
     oldPrice: 38.00,
     gender: "female",
-    image: "https://picsum.photos/seed/p20/600/800"
+    image: "https://images.unsplash.com/photo-1733582140110-331d170bd055?q=80&w=881&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   }
 ];
 

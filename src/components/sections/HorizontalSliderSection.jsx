@@ -4,14 +4,14 @@ export default function HorizontalSliderSection ({ title, perfumes }) {
   const limitedPerfumes = perfumes.slice(0, 10);
 
   return (
-    <section className="px-4 py-6 bg-slate-100">
+    <section className="px-4 py-6">
       {/* Header */}
       <div className="flex items-center justify-between mb-4">
-        <h2 className="font-spectral text-xl text-gray-950">
+        <h2 className="font-body font-semibold text-[16px] text-slate-100">
           {title}
         </h2>
 
-        <button className="text-sm text-gray-950 underline">
+        <button className="text-[14px] font-subtitle text-slate-100 underline">
           Ver todas
         </button>
       </div>

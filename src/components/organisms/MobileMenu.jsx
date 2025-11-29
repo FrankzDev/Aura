@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useEffect, useState } from "react";
 import { AiOutlineClose, AiFillFacebook, AiFillInstagram } from "react-icons/ai";
 import { FaTiktok } from "react-icons/fa";
@@ -40,16 +41,16 @@ export default function MobileMenu({ open, onClose }) {
       <aside
         onClick={(e) => e.stopPropagation()}
         className={`
-          relative h-full w-[75%] bg-slate-100 shadow-xl overflow-y-auto p-6 z-[10000]
+          relative h-full w-[75%] bg-gray-950 shadow-xl overflow-y-auto p-6 z-[10000]
           transform transition-transform duration-300
           ${isAnimating ? "translate-x-0" : "-translate-x-full"}
         `}
       >
         {/* Header */}
         <div className="flex items-center justify-between mb-6">
-          <span className="text-xl font-serif text-gray-900">Aura</span>
+          <Image width={72} height={15} alt={"Aura Logo"} src={"/images/aura-web_logo.webp"} />
           <button onClick={onClose}>
-            <AiOutlineClose size={26} className="text-gray-900" />
+            <AiOutlineClose size={20} className="text-slate-100" />
           </button>
         </div>
 

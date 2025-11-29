@@ -9,9 +9,8 @@ import HorizontalSliderSection from "@/components/sections/HorizontalSliderSecti
 
 export default function HomePage() {
   return (
-    <main className="pb-20 bg-slate-100"> 
+    <main className="pb-20 bg-slate-900"> 
       {/* TOP NAV */}
-      <Navbar />
       <HeroSection />
       <FiltersSection />
       <CatalogGridSection perfumes={perfumes} />
@@ -29,8 +28,6 @@ export default function HomePage() {
         title="Para Ambos"
         perfumes={perfumes.filter(p => p.gender === "unisex")}
       />
-      {/* BOTTOM MENU NAV */}
-      <BottomMenu />
     </main>
   );
 }
